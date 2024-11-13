@@ -1,0 +1,66 @@
+/* Contact Section */
+.contact-section {
+  background-color: #333; /* Darker background for the contact section */
+  padding: 30px;
+  margin: 20px auto; /* Center align the entire section */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Stronger shadow for depth */
+  max-width: 600px; /* Limit the width to center it nicely */
+  text-align: center; /* Center-align content */
+}
+
+.contact-section h2 {
+  color: #ffd700; /* Bright yellow for the heading */
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8); /* Stronger shadow for emphasis */
+}
+
+/* Paragraph Styling */
+.contact-section p {
+  color: #eee; /* Light gray for text */
+  font-size: 20px; /* Slightly larger font for readability */
+  line-height: 1.8; /* Increased line height */
+  margin: 20px 0;
+}
+
+/* Contact Link Styling */
+.contact-link {
+  color: #ffd700; /* Yellow for the contact links */
+  font-weight: bold;
+  font-size: 20px; /* Larger font for emphasis */
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
+  display: inline-block;
+  padding: 8px 12px; /* Padding to make links more button-like */
+  border-radius: 5px;
+  background-color: transparent; /* No background by default */
+}
+
+.contact-link:hover {
+  color: #fff; /* White on hover */
+  background-color: #ffd700; /* Yellow background on hover */
+  text-shadow: 0 0 5px #ffd700, 0 0 10px rgba(255, 215, 0, 0.5); /* Glowing effect */
+  text-decoration: underline;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  transform: scale(1.05); /* Slight enlarge on hover */
+}
+
+/* Contact Button Styling */
+.contact-section a {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: #ffd700;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.contact-section a:hover {
+  transform: scale(1.1); /* Enlarge on hover */
+  background-color: #ffd700;
+  color: #333;
+  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4); /* Yellow shadow on hover */
+}

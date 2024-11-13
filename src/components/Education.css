@@ -1,0 +1,111 @@
+/* Education Section */
+.education-section {
+  padding: 30px;
+  background-color: #333; /* Darker background */
+  margin: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+  text-align: left;
+}
+
+.education-section h2 {
+  color: #ffd700; /* Bright yellow for the main heading */
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Roadmap Styling */
+.roadmap {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Space between roadmap items */
+}
+
+.roadmap-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #444; /* Dark background for each roadmap item */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.roadmap-item:hover {
+  transform: scale(1.03); /* Slightly enlarge on hover */
+  box-shadow: 0 5px 10px rgba(255, 215, 0, 0.4); /* Yellow shadow on hover */
+}
+
+/* Circle styling for milestones */
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffd700; /* Yellow for the circles */
+  color: #333; /* Dark color for text inside the circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Roadmap item information styling */
+.info h3 {
+  color: #ffd700; /* Yellow for the school or college name */
+  font-size: 22px;
+  margin: 5px 0;
+}
+
+.info h4 {
+  color: #ccc; /* Light gray for the qualification or course */
+  font-size: 18px;
+  margin: 3px 0;
+}
+
+.info p {
+  color: #fff; /* White for the duration */
+  font-size: 16px;
+  margin: 2px 0;
+}
+
+/* Bullet List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 100%;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  margin: 8px 0;
+  color: #fff; /* White text color */
+  background-color: #555; /* Slightly lighter background for list items */
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover {
+  transform: scale(1.02); /* Enlarge slightly on hover */
+  box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3); /* Yellow shadow on hover */
+}
+
+li strong {
+  font-weight: bold;
+  color: #ffd700; /* Yellow for bold titles */
+}
+
+li p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+li:not(:last-child) {
+  border-bottom: 1px solid #ffd700; /* Thin yellow border between list items */
+}
