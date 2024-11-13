@@ -5,7 +5,6 @@ import About from './components/About';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-import Experience from './components/Experience';  // Import the new Experience component
 import { handleDownloadResume} from './downloadResume';
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li> {/* New nav link for Experience */}
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -35,7 +33,6 @@ function App() {
         </section>
         <section id="education"><Education /></section>
         <section id="skills"><Skills /></section>
-        <section id="experience"><Experience /> </section> {/* Add Experience section here */}
         <section id="contact"><Contact /></section>
       </main>
 
